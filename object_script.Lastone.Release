@@ -1,0 +1,11 @@
+release/serverthread.o
+release/myserver.o
+release/main.o
+release/myserver.o
+release/mainwindow.o
+release/mythread.o
+release/qcustomplot.o
+release/moc_mainwindow.o
+release/moc_mythread.o
+release/moc_qcustomplot.o
+release/moc_serverthread.o

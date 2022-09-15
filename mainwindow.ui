@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1129</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>40</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Symbol</family>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Merhaba QT</string>
+    </property>
+   </widget>
+   <widget class="QCustumPlot" name="customplot" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>761</width>
+      <height>421</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="plotbut">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>340</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PLOT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearbut">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>340</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CLEAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closebut">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>460</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CLOSE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>380</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Line Style</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>380</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Scatter Style</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="linestylecomboBox">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>410</y>
+      <width>82</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lİne</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Step Left</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Step Right</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Step Center</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="scattercombobox">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>410</y>
+      <width>82</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cross</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Plus</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Circle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Disc</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Square</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Diamond</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Star</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Triangle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Triangle Inverted</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cross Square</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Plus Circle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Peace</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cross </string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1129</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>****</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustumPlot</class>
+   <extends>QWidget</extends>
+   <header location="global">qcustumplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>closebut</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>992</x>
+     <y>481</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1009</x>
+     <y>520</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

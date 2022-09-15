@@ -1,0 +1,11 @@
+debug/serverthread.o
+debug/myserver.o
+debug/main.o
+debug/myserver.o
+debug/mainwindow.o
+debug/mythread.o
+debug/qcustomplot.o
+debug/moc_mainwindow.o
+debug/moc_mythread.o
+debug/moc_qcustomplot.o
+debug/moc_serverthread.o
